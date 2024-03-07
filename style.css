@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding: 0 40px;
     margin: 0;
 }
 
@@ -10,10 +10,58 @@
     border: 2px solid var(--global-palette-btn-bg, #3633E1);
 }
 
+.left-content {
+    display: flex;
+}
+
 .left-content span {
     padding: 20px;
 }
 
+.hero-image img {
+    border-radius: 50%;
+    filter: grayscale(1);
+}
+
 .navbar .left-content {
     background-color: red;
+}
+
+.feature-images {
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.feature-images img {
+    max-width: 100%;
+    border: 0 solid currentColor;
+    box-sizing: border-box;
+    width: 200px;
+    height: 80px;
+    padding: 20px;
+}
+
+.software-dev {
+    height: 100%;
+    width: 33%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 5px solid rgba(0,0,0,0);
+    background-color: blanchedalmond;
+}
+
+.card-image img{
+    height: 50%;
+    width: 50%;
+    border-radius: 20%;
+}
+
+.card-btn button {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
 }
