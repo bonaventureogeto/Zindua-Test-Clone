@@ -31,13 +31,14 @@
     display: flex;
     background-color: black;
     border-radius: 20px;
+    /* background-image: url('./images/photo.png'); */
 }
 
 .feature-images img {
     max-width: 100%;
     border: 0 solid currentColor;
     box-sizing: border-box;
-    width: 200px;
+    width: 25%;
     height: 80px;
     padding: 20px;
 }
@@ -52,8 +53,8 @@
 }
 
 .card-image img{
-    height: 50%;
-    width: 50%;
+    max-width: 100%;
+    height: auto;
     border-radius: 20%;
 }
 
@@ -64,4 +65,18 @@
 .container {
     display: flex;
     padding: 20px;
+}
+
+ul.software-list {
+    list-style-type: circle;
+}
+
+ol.pt-list {
+    list-style: lower-latin inside url('./images/Asante_logo.png');
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+        filter: grayscale(1);
+    }
 }
