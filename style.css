@@ -15,7 +15,7 @@
 }
 
 .left-content span {
-    padding: 20px;
+    padding: 20px 50px;
 }
 
 .hero-image img {
@@ -79,4 +79,21 @@ ol.pt-list {
     img {
         filter: grayscale(1);
     }
+}
+
+
+.contact {
+    background-color: rgb(243, 222, 222)
+}
+
+.form input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.form button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    align-items: center;
 }
